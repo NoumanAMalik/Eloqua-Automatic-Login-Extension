@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Eloqua Login Autofill",
+    "description": "Autofills univeristyofwindsor into Eloqua Login",
+    "version": "1.0",
+    "icons": {},
+    "content_scripts": [
+        {
+            "js": ["scripts/content.js"],
+            "matches": [
+            "https://login.eloqua.com/auth/saml2?ShowError=False&CheckFrame=False"
+            ]
+        }
+    ],
+    "permissions": ["scripting", "activeTab", "tabs"]
+  }
