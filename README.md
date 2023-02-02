@@ -6,7 +6,7 @@ And then, to add salt to the wound, after a couple minutes of inactivity, you ar
 It would be nice if your browser would automatically fill it, like it does for passwords, but Oracle labeled the type of the input as text, not password.
 Meaning that your browser would not automatically fill it because it doesn't think that is a space for passwords.
 
-Thats where this Chrome browser extension comes into play. In the file scripts/content.js, it automatically adds your company name*. Then it will click the submit button as well for you.
+Thats where this Chrome browser extension comes into play. In the file [scripts/content.js](https://github.com/NoumanAMalik/Eloqua-Automatic-Login-Extension/blob/20c3812faf47b7426e995587883a2ded32621b5d/scripts/content.js), it automatically adds your company name*. Then it will click the submit button as well for you.
 
 
 *Currently set to University of Windsor because that is my company.
