@@ -1,3 +1,9 @@
+const sso = document.getElementById("sso")
+
+if (sso) {
+    sso.click()
+}
+
 const input = document.getElementById("sitename")
 
 chrome.storage.sync.get(["company"]).then((result) => {

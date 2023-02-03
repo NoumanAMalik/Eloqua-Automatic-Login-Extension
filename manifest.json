@@ -10,7 +10,7 @@
         {
             "js": ["scripts/content.js"],
             "matches": [
-            "https://login.eloqua.com/auth/saml2?ShowError=False&CheckFrame=False"
+                "https://login.eloqua.com/*"
             ]
         }
     ],
