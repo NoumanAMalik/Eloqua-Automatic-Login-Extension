@@ -3,7 +3,6 @@
     "name": "Eloqua Login Autofill",
     "description": "Autofills univeristyofwindsor into Eloqua Login",
     "version": "1.0",
-    "icons": {},
     "content_scripts": [
         {
             "js": ["scripts/content.js"],
