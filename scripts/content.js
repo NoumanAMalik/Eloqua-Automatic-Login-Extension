@@ -1,14 +1,24 @@
-const sso = document.getElementById("sso")
+const login = () => {
+    const sso = document.getElementById("sso")
 
-if (sso) {
-    sso.click()
-}
+    if (sso) {
+        sso.click()
+    }
 
-const input = document.getElementById("sitename")
+    const error = document.getElementById("errorLabel");
 
-chrome.storage.sync.get(["company"]).then((result) => {
-    input.value = result.company;
-}).then(() => {
-    const signin = document.getElementById("submit-button")
-    signin.click()
-})
+    if (error) {
+        return;
+    }
+
+    const input = document.getElementById("sitename")
+
+    chrome.storage.sync.get(["company"]).then((result) => {
+        input.value = result.company;
+    }).then(() => {
+        const signin = document.getElementById("submit-button")
+        signin.click()
+    })
+};
+
+login()
