@@ -3,6 +3,9 @@
     "name": "Eloqua Login Autofill",
     "description": "Autofills univeristyofwindsor into Eloqua Login",
     "version": "1.0",
+    "action": {
+        "default_popup": "index.html"
+    },
     "content_scripts": [
         {
             "js": ["scripts/content.js"],
@@ -11,7 +14,7 @@
             ]
         }
     ],
-    "permissions": ["scripting", "activeTab", "tabs"],
+    "permissions": ["scripting", "activeTab", "tabs", "storage"],
     "icons": {
         "16": "images/icon-16.png",
         "32": "images/icon-32.png",

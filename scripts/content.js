@@ -1,7 +1,8 @@
 const input = document.getElementById("sitename")
 
-input.value = "universityofwindsor"
-
-const signin = document.getElementById("submit-button")
-
-signin.click()
+chrome.storage.sync.get(["company"]).then((result) => {
+    input.value = result.company;
+}).then(() => {
+    const signin = document.getElementById("submit-button")
+    signin.click()
+})
