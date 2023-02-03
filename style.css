@@ -7,6 +7,10 @@ body {
     align-items: center;
 }
 
+h1 {
+    text-decoration: underline;
+}
+
 .white-text {
     color: antiquewhite;
 }
