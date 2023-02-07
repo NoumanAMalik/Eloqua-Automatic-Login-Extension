@@ -1,4 +1,4 @@
-let input = document.getElementById("input-text")
+let input = document.getElementById("company-name")
 
 chrome.storage.sync.get(["company"]).then((result) => {
     input.value = result.company;
