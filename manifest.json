@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "Eloqua Login Autofill",
-    "description": "Autofills univeristyofwindsor into Eloqua Login",
-    "version": "1.0",
+    "description": "Autofills your Company Name into Eloqua Login. You can set the company yourself as well as toggle auto submit",
+    "version": "2.0",
     "action": {
         "default_popup": "index.html"
     },
