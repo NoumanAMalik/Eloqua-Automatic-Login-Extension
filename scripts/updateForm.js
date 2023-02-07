@@ -1,7 +1,9 @@
 let input = document.getElementById("company-name")
 
 chrome.storage.sync.get(["company"]).then((result) => {
-    input.value = result.company;
+    if (result.company) {
+        input.value = result.company;        
+    }
 });
 
 console.log(input.value)
