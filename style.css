@@ -85,3 +85,29 @@ h1 {
 .form__field:invalid {
     box-shadow: none;
 }
+
+a {
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 20px;
+    letter-spacing: 4px;
+}
+
+a:hover {
+    background: #013E42;
+    color: antiquewhite;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a.selected {
+    background: #013E42;
+    color: antiquewhite;
+    border-radius: 5px;
+    cursor: pointer;
+}
